@@ -17,6 +17,7 @@
    
    <div class='error'>{{ error }}</div>
    <div class='success'>{{ success }}</div>
+   
 
    {% block content %}
       <form action="/api/add-mark" method="POST">{% csrf_token %}
